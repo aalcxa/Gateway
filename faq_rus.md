@@ -274,8 +274,8 @@ pause
 
 Ответ: 
 1) Настроить параметры сети WiFi через встроенную точку доступа.
-2) После перезагрзки найти новое устройство в сети и прописать параметры mqtt и настройки Zigbee модуля:
-Zigbee UART RX 22, Zigbee UART TX 23, Button Mode 33 +  PullUp, Led Red 4, Led Green 5, Led Blue 21
+2) После перезагрузки найти новое устройство в сети и прописать параметры mqtt и настройки Zigbee модуля:
+Zigbee UART RX: 22, Zigbee UART TX: 23, Zigbee RST Pin: 18, Zigbee BSL Pin: 19, Button Mode: 33 + PullUp, Led Red: 4, Led Green: 5, Led Blue: 21
 3) В меню выбрать Zigbee reset. 
 4) После перезагрузки на главной странице можно будет увидеть 
 ```
